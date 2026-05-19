@@ -1,0 +1,30 @@
+{
+  "name": "Day 1",
+  "short_name": "Day 1",
+  "description": "A 16-bit workout RPG for training routes, XP, streaks, and custom workouts.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#f8f7f2",
+  "theme_color": "#5f9838",
+  "categories": ["fitness", "games"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
